@@ -16,7 +16,7 @@ sys.path.append(os.path.abspath("."))
 
 from scorer.main import get_mean_values
 
-from utils.path_utils import get_file_with_path_list
+from utils.path_utils import get_file_with_path_list, prepare_folders_and_files
 from utils.models import get_ffnn_emb_model, get_cnn_emb_model, get_lstm_emb_model
 from utils.models import get_bilstm_emb_model, get_ffnn_model
 from utils.read_dataset import get_text_only_dataset, clean_dataset, get_text_only_dataset_with_graph_features
@@ -118,13 +118,11 @@ def get_data(graph_features=0, use_embeddings=1, clef_submission=0):
 
 
 def run_task1(models_to_run, embeddings=0, graph_features=0, verbose=0, clef_submission=0):
+    
+    prepare_folders_and_files()
 
     if clef_submission == 0:
         split_labels()
-
-    embeddings_binary = os.path.join(RESOURCES_PATH, EMBEDDINGS_FILE).split(".")[0] + ".npy"
-    if os.path.exists(embeddings_binary):
-        os.remove(embeddings_binary)
 
     if embeddings == 1:
         label_embbedings = "glove"
