@@ -4,7 +4,7 @@ Source code used for NLP&IR@UNED team participation in the Arabic task 1 of the 
 
 *scorer/main.py* is an adapted version of the file in English task 1 (https://github.com/sshaar/clef2020-factchecking-task1).
 
-To export submission files for primary, contrastive1 and contrastive2 runs:
+To export submission files for *primary*, *contrastive1* and *contrastive2* runs:
 
     python nlpir01/task1.py -s 1 -g 1
 
