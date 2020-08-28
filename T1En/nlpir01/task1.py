@@ -380,7 +380,7 @@ def run_task1(models_to_run, graph_features=1, embeddings=0, verbose=0):
             build_subplot(model6_label, history_dict6)
 
         plt.tight_layout()
-        plt.savefig(join(RESULTS_PATH, "results_" + label_embbedings + "_" + label_graph + ".png"))
+        plt.savefig(join(RESULTS_PATH, RESULTS_FILE_PREFIX + "results_" + label_embbedings + "_" + label_graph + ".png"))
 
 
 if __name__ == "__main__":
