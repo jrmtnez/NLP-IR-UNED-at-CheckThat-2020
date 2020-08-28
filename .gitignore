@@ -1,0 +1,10 @@
+.vscode
+.pyc
+__pycache__
+T1Ar/data/2020/task1/training/*
+T1Ar/data/2020/task1/testing/*
+T1Ar/nlpir01/resources/*
+T1Ar/nlpir01/results/gold/*
+T1Ar/nlpir01/results/pred/*
+T1Ar/nlpir01/results/T1-AR*
+!.gitkeep
