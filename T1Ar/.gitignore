@@ -1,4 +1,5 @@
 .vscode
+.pyc
 __pycache__
 data/2020/task1/training/*
 data/2020/task1/testing/*
@@ -6,3 +7,4 @@ nlpir01/resources/*
 nlpir01/results/gold/*
 nlpir01/results/pred/*
 nlpir01/results/T1-AR*
+!.gitkeep
