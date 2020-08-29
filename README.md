@@ -12,7 +12,7 @@ Source code used for NLP&IR@UNED team participation in the Checkthat! 2020 Lab (
 https://sites.google.com/view/clef2020-checkthat/tasks/tasks-1-5-check-worthiness
 
 
-- T2: Task 2, Claim Retrieval.
+- T2En: Task 2, Claim Retrieval English.
 
 https://sites.google.com/view/clef2020-checkthat/tasks/task-2-claim-retrieval
 
