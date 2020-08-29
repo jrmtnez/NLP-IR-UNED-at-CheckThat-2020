@@ -10,13 +10,13 @@ T1Ar/nlpir01/results/T1-AR*
 
 T1En/*
 !T1En/nlpir01
-!T1En/README_T1En.md
+!T1En/README.md
 T1En/nlpir01/resources/*
 T1En/nlpir01/results/T1-EN*
 
 T5En/*
 !T5En/nlpir01
-!T5En/README_T5En.md
+!T5En/README.md
 T5En/nlpir01/resources/glove.6B.100d.txt
 T5En/nlpir01/results/*
 !.gitkeep
