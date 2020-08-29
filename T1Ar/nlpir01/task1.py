@@ -344,13 +344,13 @@ def run_task1(models_to_run, embeddings=0, graph_features=0, verbose=0, clef_sub
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--submission", "-s", type=int, default=0, choices=[0, 1],
-        help='0 = run on training dataset, 1 = run on test dataset for submission to CheckThat!')
-    parser.add_argument("--models", "-m", type=list, default=[1, 2, 4],
-        help='List of models to run. All models = [1, 2, 3, 4, 5]')
+        help="0 = run on training dataset, 1 = run on test dataset for submission to CheckThat!")
+    parser.add_argument("--models", "-m", nargs="+", type=int, default=[1, 2, 4],
+        help="List of models to run. All models = [1, 2, 3, 4, 5]")
     parser.add_argument("--embeddings", "-e", type=int, default=1, choices=[0, 1],
-        help='When submission = 1, 0 = auto-generated embeddings, 1 = Glove embeddings.')
+        help="When submission = 1, 0 = auto-generated embeddings, 1 = Glove embeddings.")
     parser.add_argument("--graph", "-g", type=int, default=1, choices=[0, 1],
-        help='When submission = 1, 0 = do not use graph, 1 = use graph.')
+        help="When submission = 1, 0 = do not use graph, 1 = use graph.")
     args = parser.parse_args()  
 
     starting_time = datetime.now()

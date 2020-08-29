@@ -386,13 +386,13 @@ def run_task1(models_to_run, graph_features=1, embeddings=0, verbose=0):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--check_all", "-ca", type=int, default=0, choices=[0, 1],
-        help='0 = run a specific configuration, 1 = run all combinations of embeddings and graph')
-    parser.add_argument("--models", "-m", type=list, default=[1, 2, 4],
-        help='List of models to run. All models = [1, 2, 3, 4, 5, 6]')
+        help="0 = run a specific configuration, 1 = run all combinations of embeddings and graph")
+    parser.add_argument("--models", "-m", nargs="+", type=int, default=[1, 2, 4],
+        help="List of models to run. All models = [1, 2, 3, 4, 5, 6]")
     parser.add_argument("--embeddings", "-e", type=int, default=1, choices=[0, 1],
-        help='0 = auto-generated embeddings, 1 = Glove embeddings.')
+        help="0 = auto-generated embeddings, 1 = Glove embeddings.")
     parser.add_argument("--graph", "-g", type=int, default=1, choices=[0, 1],
-        help='0 = do not use graph, 1 = use graph.')
+        help="0 = do not use graph, 1 = use graph.")
     args = parser.parse_args()  
 
     starting_time = datetime.now()
