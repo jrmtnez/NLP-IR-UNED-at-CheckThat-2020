@@ -1,16 +1,14 @@
-ABS_PATH = ""
+RESOURCES_PATH = "nlpir01/resources"
+RESULTS_PATH = "nlpir01/results"
+RESULTS_TO_EVALUATE_PATH = "nlpir01/results/pred"
+GOLD_PATH = "nlpir01/results/gold"
 
-RESOURCES_PATH = ABS_PATH + "nlpir01/resources"
-RESULTS_PATH = ABS_PATH + "nlpir01/results"
-RESULTS_TO_EVALUATE_PATH = ABS_PATH + "nlpir01/results/pred"
-GOLD_PATH = ABS_PATH + "nlpir01/results/gold"
+TWEETS_PATH = "data/2020/task1/training/CT20-AR-Train-T1-Tweets.gz"
+LABELS_PATH = "data/2020/task1/training/CT20-AR-Train-T1-Labels.txt"
+TOPICS_PATH = "data/2020/task1/training/CT20-AR-Train-Topics.json"
 
-TWEETS_PATH = ABS_PATH + "data/2020/task1/training/CT20-AR-Train-T1-Tweets.gz"
-LABELS_PATH = ABS_PATH + "data/2020/task1/training/CT20-AR-Train-T1-Labels.txt"
-TOPICS_PATH = ABS_PATH + "data/2020/task1/training/CT20-AR-Train-Topics.json"
-
-TEST_TWEETS_PATH = ABS_PATH + "data/2020/task1/testing/CT20-AR-Test-T1-Tweets.gz"
-TEST_TOPICS_PATH = ABS_PATH + "data/2020/task1/testing/CT20-AR-Test-Topics.json"
+TEST_TWEETS_PATH = "data/2020/task1/testing/CT20-AR-Test-T1-Tweets.gz"
+TEST_TOPICS_PATH = "data/2020/task1/testing/CT20-AR-Test-Topics.json"
 
 EMBEDDINGS_FILE = "vectors_256d_ar.txt"
 RESULTS_FILE_PREFIX = "T1-AR-"
