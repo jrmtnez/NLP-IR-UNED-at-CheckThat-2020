@@ -397,7 +397,6 @@ if __name__ == "__main__":
 
     starting_time = datetime.now()
 
-    print(args)
     if args.check_all == 0:
         run_task1(args.models, embeddings=args.embeddings, graph_features=args.graph)
     else:

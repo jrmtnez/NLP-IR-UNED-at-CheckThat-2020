@@ -318,7 +318,6 @@ if __name__ == "__main__":
         help="0 = do not use oversampling, 1 = use oversampling.")
     args = parser.parse_args()  
 
-    print(args)
     starting_time = datetime.now()
 
     if args.check_all == 0:

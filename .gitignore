@@ -14,6 +14,12 @@ T1En/*
 T1En/nlpir01/resources/*
 T1En/nlpir01/results/T1-EN*
 
+T2En/*
+!T2En/nlpir01
+!T2En/README.md
+T2En/nlpir01/results/
+T2En/nlpir01/data/
+
 T5En/*
 !T5En/nlpir01
 !T5En/README.md
