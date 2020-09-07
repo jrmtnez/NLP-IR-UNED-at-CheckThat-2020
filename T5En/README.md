@@ -54,6 +54,7 @@ Description: Bidirectional LSTM model with 256 tanh units in the hidden layers, 
 
 ### RID (Regressive Imagery Dictionary)
 Colin Martindale. Romantic Progression: The Psychology of Literary History, Hemisphere, Washington, DC, 1975.
+
 Colin Martindale. The clockwork muse: The predictability of artistic change. The clockwork muse: The predictability of artistic change. Basic Books, New York, NY, US, 1990. Pages: xiv, 411.
 
 Dictionary file adapted from: https://rdrr.io/github/kbenoit/quanteda.dictionaries/
