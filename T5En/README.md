@@ -4,9 +4,9 @@ Source code used for NLP&IR@UNED team participation in the task 5 of the Checkth
 
 To export submission files for *primary*, *contrastive1* and *contrastive2* runs:
 
-    python nlpir01/task5.py -m 7
-    python nlpir01/task5.py -m 7
-    python nlpir01/task5.py -m 7 -o 1
+    python nlpir01/task5.py -m 5
+    python nlpir01/task5.py -m 5
+    python nlpir01/task5.py -m 5 -o 1
 
 Exported files are stored in *nlpir01/results/submission_debates* folder.
 
