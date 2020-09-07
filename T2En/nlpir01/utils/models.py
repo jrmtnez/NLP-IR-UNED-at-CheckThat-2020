@@ -119,12 +119,12 @@ def get_ffnn_model(input_length, hidden_layer_size,
                dropout=0.4, activation="sigmoid", optimizer="adam", verbose=0):
     sequence_input = Input(shape=(input_length,), dtype="float32")
     x = Dense(hidden_layer_size, activation=activation)(sequence_input)
-    x = BatchNormalization()(x)
+    # x = BatchNormalization()(x)
     x = Dense(int(hidden_layer_size / 2), activation=activation)(x)
-    x = BatchNormalization()(x)
+    # x = BatchNormalization()(x)
     x = Dense(int(hidden_layer_size / 4), activation=activation)(x)
-    x = BatchNormalization()(x)
-    x = Dropout(dropout)(x)
+    # x = BatchNormalization()(x)
+    # x = Dropout(dropout)(x)
     preds = Dense(1, activation="sigmoid")(x)
     model = Model(sequence_input, preds)
 
