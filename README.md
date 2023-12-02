@@ -2,6 +2,7 @@
 
 Source code used for NLP&IR@UNED team participation in the Checkthat! 2020 Lab (https://sites.google.com/view/clef2020-checkthat).
 
+Related paper: https://ceur-ws.org/Vol-2696/paper_100.pdf
 
 ## Folder structure
 
